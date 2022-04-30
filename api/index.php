@@ -1,6 +1,6 @@
 <?php
 
-$db = new SQLite3('/var/task/user/api/db.sqlite');
+$db = new SQLite3('/var/task/user/api/database/db.sqlite');
 
 $db->query('CREATE TABLE IF NOT EXISTS "visits" (
     "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
